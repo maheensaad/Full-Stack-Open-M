@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI2NTFiMzJlODBmM2FjOTdkNjM0ODViOGQiLCJpYXQiOjE2OTY2MjkwNDUsImV4cCI6MTY5NjYzMjY0NX0.09iSPvAgRIna09fFOk6iL2U7Xzkm3ZBDG1pkM6NvtV4
+
+{
+"title": "Things I don't know as of 2018",
+"author": "Dan Abramov",
+"url": "https://overreacted.io/things-i-dont-know-as-of-2018/",
+"likes": 0
+}
